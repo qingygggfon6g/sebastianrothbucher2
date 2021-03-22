@@ -17,3 +17,21 @@ WITH (
 );
 ALTER TABLE address
   OWNER TO postgres;
+
+
+-- Table: transfer
+
+-- DROP TABLE transfer;
+
+CREATE TABLE transfer
+(
+  procid text,
+  attribute text,
+  val text,
+  topic text
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE transfer
+  OWNER TO postgres;
