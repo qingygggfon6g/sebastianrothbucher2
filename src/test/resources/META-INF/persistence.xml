@@ -5,6 +5,7 @@
 	<persistence-unit name="Html5PostmessageTest" transaction-type="RESOURCE_LOCAL">
 		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
 		<class>de.akquinet.engineering.vaadin.postmessage.model.Address</class>
+		<class>de.akquinet.engineering.vaadin.postmessage.model.Transfer</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 			<property name="eclipselink.application-location" value="." />

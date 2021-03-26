@@ -6,6 +6,7 @@
 		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
 		<non-jta-data-source>java:comp/env/jdbc/vaadin</non-jta-data-source>
 		<class>de.akquinet.engineering.vaadin.postmessage.model.Address</class>
+		<class>de.akquinet.engineering.vaadin.postmessage.model.Transfer</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 			<property name="javax.persistence.target-database" value="PostgreSQL" />
