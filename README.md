@@ -1,7 +1,7 @@
 html5-postmessage
 =================
 
-Demo of Bonita + Vaadin integration (i.e. brush up small parts of an application) via HTML5 postMessage
+Demo of Bonita + Vaadin integration (i.e. brush up small parts of an application) via HTML5 postMessage - see e.g. on [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window.postMessage)
 
 <b>Situation:</b> You have an existing, grown application
 
