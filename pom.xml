@@ -8,18 +8,18 @@
 	<name>Html5Postmessage</name>
 	<url>http://www.akquinet.de/java</url>
 	<properties>
-		<vaadin.version>7.1.6</vaadin.version>
+		<vaadin.version>7.3.3</vaadin.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>de.akquinet.engineering.vaadin.vaadinator</groupId>
 			<artifactId>VaadinatorAnnotations</artifactId>
-			<version>0.9-SNAPSHOT</version>
+			<version>0.10-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>de.akquinet.engineering.vaadin.vaadinator</groupId>
 			<artifactId>VaadinatorUtils</artifactId>
-			<version>0.9-SNAPSHOT</version>
+			<version>0.10-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
@@ -47,12 +47,6 @@
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-themes</artifactId>
 			<version>${vaadin.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-theme-compiler</artifactId>
-			<version>${vaadin.version}</version>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
@@ -175,12 +169,12 @@
 			<plugin>
 				<groupId>de.akquinet.engineering.vaadin.vaadinator</groupId>
 				<artifactId>VaadinatorGenerator</artifactId>
-				<version>0.9-SNAPSHOT</version>
+				<version>0.10-SNAPSHOT</version>
 				<dependencies>
 					<dependency>
 						<groupId>de.akquinet.engineering.vaadin.vaadinator</groupId>
 						<artifactId>VaadinatorTemplatesDesktop</artifactId>
-						<version>0.9-SNAPSHOT</version>
+						<version>0.10-SNAPSHOT</version>
 					</dependency>
 				</dependencies>
 				<executions>
